@@ -1,0 +1,9 @@
+# Upload only the program files. Everything else stays on this PC
+# (saved logins, settings, launchers, local notes).
+# Rule order matters: ignore everything, then re-allow the program files.
+*
+!.gitignore
+!README.md
+!codex_switch.py
+!functions/
+!codex_functions.py
