@@ -12,9 +12,8 @@ The program only copies login files. It does not change your Codex settings, pro
 
 ## Quick start
 
-```bash
-python3 codex_switch.py          # Windows: py -3 codex_switch.py
-```
+- **Windows:** double-click `Codex Account Manager.bat`.
+- **macOS and Linux:** run `python3 codex_switch.py` in a terminal.
 
 The first time, the program saves the login that is already in your main Codex folder. It asks for a name for it, for example `work`.
 
@@ -79,7 +78,8 @@ Edit `codex_switch_config.json` to change these:
 ## Project layout
 
 ```
-codex_switch.py              the file to run
+codex_switch.py              the program (run this on macOS and Linux)
+Codex Account Manager.bat    Windows double-click launcher
 functions/codex_functions.py all program logic
 README.md
 .gitignore
